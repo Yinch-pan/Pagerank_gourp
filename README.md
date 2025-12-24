@@ -33,8 +33,14 @@ Metrics : 加速比 ，资源利用率
 ### 实验环境
 节点数：4个
 #### 节点配置
+Hadoop/Giraph 集群节点配置汇总表
 
-* 硬件：集群配置，包括节点数 **(>=3)**、CPU 核数、内存大小、网络带宽、存储类型（SSD / HDD）等。
+|**节点角色**|**节点名称 (Hostname)**|**CPU**|**内存 (RAM)**|**操作系统**|**公网带宽**|**磁盘配置**|
+|---|---|---|---|---|---|---|
+|**Hadoop Master**|`hadoop-master`|8核|16 GiB|Ubuntu 24.04 LTS|10 Mbps|50GB 增强型 SSD|
+|**Hadoop Slave 1**|`hadoop-slave1`|8核|16 GiB|Ubuntu 24.04 LTS|10 Mbps|50GB 增强型 SSD|
+|**Hadoop Slave 2**|`hadoop-slave2`|8核|16 GiB|Ubuntu 24.04 LTS|10 Mbps|50GB 增强型 SSD|
+|**ZooKeeper**|`zookeeper-node`|2核|2 GiB|Ubuntu 24.04 LTS|3 Mbps|50GB 通用型 SSD|
 
 ### 软件环境配置表
 
