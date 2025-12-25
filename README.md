@@ -121,7 +121,7 @@ Hadoop/Giraph 集群节点配置汇总表
     - 观察当数据规模超出内存容量时，Giraph 的表现是否会大幅下降（触发 Spill），从而分析其局限性。
     - 
 ### 实验结果与分析
-
+<img width="1737" height="244" alt="image" src="https://github.com/user-attachments/assets/d27c7761-41db-4610-a3db-3d7cdff7e6ac" />
 使用表格和图表直观呈现结果，并解释结果背后的原因。
 ### 结论
 总结研究的主要发现。
